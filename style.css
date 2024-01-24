@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    background-color: #1a1919
+}
 .main{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(https://wallpapercave.com/wp/wp12492736.jpg);
@@ -12,30 +15,33 @@
 }
 
 .navbar{
-    width: 1250px;
-    height: 75px;
+    width: 90%;
+    height: 66px;
     margin: auto;
 }
 
 .logo{
-    width: 200px;
+    width: 15%;
     float: left;
-    height: 70px;
+    height: 66px;
 }
 
 .logo h2{
-    color: #ff7200;
-    font-size: 35px;
+    color: #fff;
+    font-size:270%;
     font-family: Arial;
-    padding-left: 20px;
     float: left;
     padding-top: 10px;
 }
 
+.logo h2 span{
+    color: #ff7200;
+}
+
 .menu{
-    width: 650px;
+    width: 60%;
     float: left;
-    height: 70px;
+    height: 66px;
 }
 
 ul{
@@ -47,7 +53,7 @@ ul{
 
 ul li{
     list-style: none;
-    margin-left: 62px;
+    margin-left: 5rem;
     margin-top: 27px;
     font-size: 14px;
 }
@@ -65,8 +71,10 @@ ul li a:hover{
 }
 
 .search{
-    width: 400px;
-    float: left;
+    width: 20%;
+    height: 66px;
+    position: absolute;
+    right: 5%;
 }
 
 .srch{
@@ -82,6 +90,7 @@ ul li a:hover{
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     margin-top: 13px;
+    float: left;
 }
 
 .btn{
@@ -90,11 +99,12 @@ ul li a:hover{
     background: #ff7200;
     border: 2px solid #ff7200;
     margin-top: 13px;
-    color: #fff;
-    font-size: 15px;
+    color: #000;
+    font-size: 18px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
-    float: right;
+    float: left;
+    cursor: pointer;
 }
 
 .btn:focus{
@@ -102,7 +112,7 @@ ul li a:hover{
 }
 
 .btn:active{
-    width: 95px;
+    width: 96px;
 }
 
 .srch:focus{
@@ -110,36 +120,34 @@ ul li a:hover{
 }
 
 .content{
-    width: 1260px;
+    width: 90%;
     height: auto;
     margin: auto;
     color: #fff;
     position: relative;
 }
 
-.content .par{
-    padding-left: 20px;
-    padding-bottom: 25px;
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+}
+
+.content p{
+    margin-top: 30px;
     font-family: Arial;
     letter-spacing: 1.2px;
     line-height: 30px;
 }
 
-.content h1{
-    font-family: 'Times New Roman';
-    font-size: 50px;
-    padding-left: 20px;
-    margin-top: 10%;
-    letter-spacing: 2px;
-}
 
 .join{
     width: 160px;
     height: 40px;
     background: #ff7200;
     border: none;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    margin-top: 30px;
     font-size: 18px;
     border-radius: 9px;
     cursor: pointer;
@@ -148,6 +156,7 @@ ul li a:hover{
 .join a{
     text-decoration: none;
     color: #000;
+    font-weight: bold;
     transition: .3s ease;
 }
 
@@ -156,7 +165,7 @@ ul li a:hover{
 }
 
 .join:active{
-    width: 155px;
+    width: 156px;
 }
 
 .content span{
@@ -166,11 +175,11 @@ ul li a:hover{
 
 .form{
     width: 300px;
-    height: 420px;
+    height: 450px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5)1%, rgba(0, 0, 0, 0.5)1%);
     position: absolute;
-    top: -10px;
-    left: 900px;
+    top: -30px;
+    right: 0;
     border-radius: 10px;
     padding: 25px;
 }
@@ -182,8 +191,9 @@ ul li a:hover{
     color: #fff;
     font-size: 22px;
     border-radius: 10px;
-    margin: 2px;
-    padding: 5px;
+    border-bottom: 1px solid #ff7200;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .form input{
@@ -223,7 +233,6 @@ ul li a:hover{
 
 .login:hover{
     background-color: #fff;
-    color: #ff7200;
 }
 
 .login a{
@@ -233,17 +242,17 @@ ul li a:hover{
 }
 
 .login:active{
-    width: 98%;
+    width: 99%;
 }
 
 .link{
     font-family: Arial;
-    font-size: 17px;
-    padding-top: 20px;
+    font-size: 15px;
 }
 
 .link a{
     text-decoration: none;
+    font-weight: bold;
     color: #ff7200;
 }
 
@@ -260,7 +269,7 @@ ul li a:hover{
     background-color: #ff730086;
     width: 50%;
     height: 1px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .or p{
@@ -269,10 +278,9 @@ ul li a:hover{
 }
 
 .liw{
-    padding-top: 30px;
-    padding-bottom: 10px;
     text-align: center;
     font-family: Arial;
+
 }
 
 .icon{
@@ -298,7 +306,8 @@ ul li a:hover{
 footer{
     width: 100%;
     height: 50px;
-    background: none;
+    position: fixed;
+    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,7 +316,7 @@ footer{
 
 footer p{
     font-weight: normal;
-    font-family:inherit;
+    font-family:Arial, sans-serif;
     color: #ffffffc0;
     font-size: 14px;
 }
@@ -316,41 +325,48 @@ footer p span{
     color: #ff7300b7;
 }
 
-@media only screen and (max-width: 930px) {
+
+@media only screen and (max-width: 1190px) {
+
+    .menu ul li{
+        margin-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+
+    .menu ul li{
+        margin-left: 3rem;
+    }
+    
+}
+
+@media only screen and (max-width: 980px) {
 
     .navbar{
-        background-color: rgba(153, 168, 84, 0.568);
-        width: 450px;
+        height: 54px;
     }
 
     .logo{
-        width: 150px;
+        height: 54px;
     }
 
     .logo h2{
-        font-size: 27px;
+        font-size: 180%;
     }
+    
     .menu{
-      display: none;
+       height: 54px;
     }
 
-    .menu a.burger{
-      float: right;
-      display: block;
+    .menu ul li{
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 2rem;
     }
-
-    .menu .rsponsive{
-      position: relative;
-    }
-
-    .menu .rsponsive .burger{
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-
     .search{
-        width: 240px;
+        width: 25%;
+        height: 54px;
     }
 
     .srch{
@@ -362,20 +378,33 @@ footer p span{
     }
 
     .content{
-        background-color: rgba(64, 206, 206, 0.541);
-        width: 450px;
-        height: auto;
+        width: 90%;
     }
 
     .form{
-        position:relative;
-        top: 50px;
-        left: 50px;
+        position: relative;
+        margin: 120px auto;
+        margin-bottom: 20px;
     }
 
     footer{
-        background: red;
+        position: relative;
     }
 
+}
 
+@media only screen and (max-width: 790px) {
+
+    .menu ul li{
+        font-size: 12px;
+        margin-left: 1rem;
+    }
+
+    .srch{
+        font-size: 12px;
+    }
+
+    .btn{
+        font-size: 12px;
+    }
 }
