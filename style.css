@@ -386,11 +386,6 @@ footer p span{
         margin: 120px auto;
         margin-bottom: 20px;
     }
-
-    footer{
-        position: relative;
-    }
-
 }
 
 @media only screen and (max-width: 790px) {
