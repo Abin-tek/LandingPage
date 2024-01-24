@@ -112,7 +112,7 @@ ul li a:hover{
 }
 
 .btn:active{
-    width: 96px;
+    width: 29%;
 }
 
 .srch:focus{
@@ -377,9 +377,6 @@ footer p span{
         height: 27px;
     }
 
-    .btn:active{
-    width: 100%;
-    }
     .content{
         width: 90%;
     }
