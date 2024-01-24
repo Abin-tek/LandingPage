@@ -377,6 +377,9 @@ footer p span{
         height: 27px;
     }
 
+    .btn:active{
+    width: 100%;
+    }
     .content{
         width: 90%;
     }
