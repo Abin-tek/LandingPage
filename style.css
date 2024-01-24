@@ -316,7 +316,7 @@ footer p span{
     color: #ff7300b7;
 }
 
-@media only screen and (max-width: 878px) {
+@media only screen and (max-width: 879px) {
 
     .navbar{
         background-color: rgba(153, 168, 84, 0.568);
@@ -374,7 +374,7 @@ footer p span{
     }
 
     footer{
-        background: red;
+        background: green;
     }
 
 
