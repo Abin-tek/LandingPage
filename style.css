@@ -294,3 +294,86 @@ ul li a:hover{
 .icon ion-icon:hover{
     color: #ff7200;
 }
+
+footer{
+    width: 100%;
+    height: 50px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.233)1%, rgba(0, 0, 0, 0.253)1%);
+}
+
+footer p{
+    font-weight: normal;
+    font-family:inherit;
+    color: #ffffffc0;
+    font-size: 14px;
+}
+
+footer p span{
+    color: #ff7300b7;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navbar{
+        background-color: rgba(153, 168, 84, 0.568);
+        width: 450px;
+    }
+
+    .logo{
+        width: 150px;
+    }
+
+    .logo h2{
+        font-size: 27px;
+    }
+    .menu{
+      display: none;
+    }
+
+    .menu a.burger{
+      float: right;
+      display: block;
+    }
+
+    .menu .rsponsive{
+      position: relative;
+    }
+
+    .menu .rsponsive .burger{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .search{
+        width: 240px;
+    }
+
+    .srch{
+        height: 27px;
+    }
+
+    .btn{
+        height: 27px;
+    }
+
+    .content{
+        background-color: rgba(64, 206, 206, 0.541);
+        width: 450px;
+        height: auto;
+    }
+
+    .form{
+        position:relative;
+        top: 50px;
+        left: 50px;
+    }
+
+
+
+
+}
