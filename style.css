@@ -373,7 +373,9 @@ footer p span{
         left: 50px;
     }
 
-
+    footer{
+        background: red;
+    }
 
 
 }
